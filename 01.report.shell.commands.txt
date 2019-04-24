@@ -1,16 +1,16 @@
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ echo hello world 
+-echo hello world 
 hello world 
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ passwd 
+-passwd 
 Changing password for tinyboyx. (current) UNIX password: Enter new UNIX password: Retype new UNIX password: passwd: password updated successfully 
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ date 
+- date 
 Mon Apr  1 09:48:04 +07 2019 
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ hostname 
+- hostname 
 do-Inspiron-3576 
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ arch 
+- arch 
 x86_64 
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ uname -a 
+- uname -a 
 Linux do-Inspiron-3576 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux 
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ dmesg 
+- dmesg 
 [ 1792.194403] wlp2s0: authenticate with 7a:8a:20:55:87:40
 [ 1792.258501] wlp2s0: send auth to 7a:8a:20:55:87:40 (try 1/3)
 [ 1792.268245] wlp2s0: authenticated
@@ -21,14 +21,14 @@ Linux do-Inspiron-3576 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 
 [ 2251.333007] acpi INT3400:00: Unsupported event [0x86]
 [ 2275.672775] acpi INT3400:00: Unsupported event [0x86]
 uptime 09:53:00 up 57 min,  1 user,  load average: 0,76, 0,75, 0,91
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ who am i
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ whoami
+- who am i
+- whoami
 tinyboyx
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ who
+- who
 tinyboyx tty7         2019-04-01 08:55 (:0)
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ id
+- id
 uid=1000(tinyboyx) gid=1000(tinyboyx) groups=1000(tinyboyx),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),112(lpadmin),127(sambashare)
-tinyboyx@do-Inspiron-3576:~/OPS/os2019$ last
+- last
 tinyboyx tty7         :0               Mon Apr  1 08:55    gone - no logout
 reboot   system boot  4.15.0-20-generi Mon Apr  1 08:55   still running
 tinyboyx tty7         :0               Mon Apr  1 15:48 - 08:50  (-6:57)
@@ -39,7 +39,7 @@ tinyboyx tty7         :0               Thu Mar 28 15:15 - 15:23  (00:08)
 reboot   system boot  4.15.0-20-generi Thu Mar 28 15:15 - 15:23  (00:08)
 
 wtmp begins Thu Mar 28 15:15:05 2019
--tinyboyx@do-Inspiron-3576:~/OPS/os2019$ finger
+-finger
 Login     Name              Tty      Idle  Login Time   Office     Office Phone
 -tinyboyx  Pham Minh Giang   tty7     1:16  Apr  1 08:55 (:0)
 -tinyboyx@do-Inspiron-3576:~/OPS/os2019$ w
