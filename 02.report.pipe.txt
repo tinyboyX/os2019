@@ -1,0 +1,20 @@
+tinyboyx@do-Inspiron-3576:~$ ls
+ Desktop     github   Pictures   Templates            Videos
+ Documents   Music    project1   trialofMortal
+ Downloads   OPS      Public    'Untitled Document'
+tinyboyx@do-Inspiron-3576:~$ find | grep "list"
+./.config/Atom/Cache/settings-view/orderedlist-1554780036641
+./.config/mimeapps.list
+./.config/hexchat/servlist.conf
+./.config/google-chrome/Default/Extensions/gighmmpiobklfepjocnamgkkbiglidom/3.44.0_0/adblock-uiscripts-top_open_whitelist_ui.js
+./.config/google-chrome/Default/Extensions/gighmmpiobklfepjocnamgkkbiglidom/3.44.0_0/adblock-uiscripts-blacklisting-elementchain.js
+./.config/google-chrome/Default/Extensions/gighmmpiobklfepjocnamgkkbiglidom/3.44.0_0/adblock-uiscripts-blacklisting-overlay.js
+./.config/google-chrome/Default/Extensions/gighmmpiobklfepjocnamgkkbiglidom/3.44.0_0/adblock-uiscripts-top_open_blacklist_ui.js
+tinyboyx@do-Inspiron-3576:~$ wc -l /etc/passwd
+41 /etc/passwd
+tinyboyx@do-Inspiron-3576:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        3934264     1387324      919184      173832     1627756     2083952
+Swap:       1580996           0     1580996
+
+
