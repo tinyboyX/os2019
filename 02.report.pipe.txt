@@ -21,11 +21,8 @@ tinyboyx@do-Inspiron-3576:~$ free -m | grep Mem
 Mem:           3842        1344         400         182        2097        2032
 
     
-tinyboyx@do-Inspiron-3576:~$ grep 'core id' /proc/cpuinfo 
-core id		: 0
-core id		: 1
-core id		: 0
-core id		: 1
+tinyboyx@do-Inspiron-3576:~$ grep 'core' /proc/cpuinfo | wc -l
+8
 
 tinyboyx@do-Inspiron-3576:~$ find -type f -name *.gif -o -name *.jpg -o -name *.bmp
 ./trialofMortal/Mortal/static/post3.jpg
