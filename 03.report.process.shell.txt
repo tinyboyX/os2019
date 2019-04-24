@@ -1,0 +1,15 @@
+tinyboyx@do-Inspiron-3576:~$ grep 'processor' /proc/cpuinfo | wc -l
+4
+tinyboyx@do-Inspiron-3576:~$ ps -a | wc -l
+23
+
+tinyboyx@do-Inspiron-3576:~$ gnome-calculator
+tinyboyx@do-Inspiron-3576:~$ ps -a | grep gnome-cal
+15987 pts/0    00:00:00 gnome-calculato
+
+tinyboyx@do-Inspiron-3576:~$ cat /proc/15987/status | grep State
+State:	S (sleeping)
+
+tinyboyx@do-Inspiron-3576:~$ kill 15987
+tinyboyx@do-Inspiron-3576:~$ gnome-calculator
+[10]+  Killed                  gnome-calculator
