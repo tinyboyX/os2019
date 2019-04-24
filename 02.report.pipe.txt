@@ -17,6 +17,9 @@ tinyboyx@do-Inspiron-3576:~$ free
               total        used        free      shared  buff/cache   available
 Mem:        3934264     1387324      919184      173832     1627756     2083952
 Swap:       1580996           0     1580996
+tinyboyx@do-Inspiron-3576:~$ free -m | grep Mem
+Mem:           3842        1344         400         182        2097        2032
+
     
 tinyboyx@do-Inspiron-3576:~$ grep 'core id' /proc/cpuinfo 
 core id		: 0
