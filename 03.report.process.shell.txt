@@ -9,6 +9,12 @@ tinyboyx@do-Inspiron-3576:~$ ps -a | grep gnome-cal
 
 tinyboyx@do-Inspiron-3576:~$ cat /proc/15987/status | grep State
 State:	S (sleeping)
+tinyboyx@do-Inspiron-3576:~$ kill -stop 15987
+tinyboyx@do-Inspiron-3576:~$ gnome-calculator
+
+[10]+  Stopped                 gnome-calculator
+
+tinyboyx@do-Inspiron-3576:~$ kill -cont 15987
 
 tinyboyx@do-Inspiron-3576:~$ kill 15987
 tinyboyx@do-Inspiron-3576:~$ gnome-calculator
