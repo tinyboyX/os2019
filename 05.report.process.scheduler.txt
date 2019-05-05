@@ -8,4 +8,3 @@ tinyboyx@do-Inspiron-3576:~$ grep systemd /proc/sched_debug
  S        systemd     1       219.306800      1798   120         0.000000      1301.614539         0.000000 0 0 /autogroup-2
  Ssystemd-timesyn   622        14.452318        45   120         0.000000        41.417427         0.000000 0 0 /autogroup-35
  S        systemd  1002        26.181277        92   120         0.000000        56.393631         0.000000 0 0 /autogroup-94
-tinyboyx@do-Inspiron-3576:~$
