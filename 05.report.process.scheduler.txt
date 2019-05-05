@@ -1,0 +1,11 @@
+tinyboyx@do-Inspiron-3576:~$ grep systemd /proc/sched_debug
+ S  systemd-udevd   372       429.050032       687   120         0.000000       204.507164         0.000000 0 0 /autogroup-18
+ T        systemd  2497        61.587727        12   120         0.000000        36.149236         0.000000 0 0 /autogroup-116
+ Ssystemd-journal   348       138.810244      2149   119         0.000000      1303.532557         0.000000 0 0 /autogroup-12
+ Ssystemd-resolve   627        46.401426       394   120         0.000000       175.138538         0.000000 0 0 /autogroup-37
+ S systemd-logind   736        18.591828      1088   120         0.000000        80.249660         0.000000 0 0 /autogroup-54
+ T        systemd  2548        45.163515         8   120         0.000000        22.926102         0.000000 0 0 /autogroup-116
+ S        systemd     1       219.306800      1798   120         0.000000      1301.614539         0.000000 0 0 /autogroup-2
+ Ssystemd-timesyn   622        14.452318        45   120         0.000000        41.417427         0.000000 0 0 /autogroup-35
+ S        systemd  1002        26.181277        92   120         0.000000        56.393631         0.000000 0 0 /autogroup-94
+tinyboyx@do-Inspiron-3576:~$
