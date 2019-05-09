@@ -1,0 +1,5 @@
+tinyboyx@do-Inspiron-3576:~$ ps -a | grep firefox
+11246 pts/2    00:00:07 firefox
+tinyboyx@do-Inspiron-3576:~$ ps -o nlwp 11246
+NLWP
+  54
